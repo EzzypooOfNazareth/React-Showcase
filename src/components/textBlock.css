@@ -1,0 +1,36 @@
+.text-block {
+    width: 100%;
+    margin: 25px 0;
+    color: #333333;
+}
+
+.text-block h1 {
+    font-size: 28px;
+    margin: 0 0 10px 0;
+}
+
+.text-block p {
+    font-size: 22px;
+    margin: 0;
+}
+
+.text-block .pre-container {
+    width: 100%;
+    background-color: #333333;
+    border-radius: 5px;
+    padding: 10px 15px;
+    box-sizing: border-box;
+    margin: 15px 0;
+}
+
+.text-block pre {
+    margin: 8px 0;
+    text-align: center;
+    color: lightsalmon;
+}
+
+@media screen and (max-width: 750px) {
+    .text-block .pre-container {
+        display: none;
+    }
+}

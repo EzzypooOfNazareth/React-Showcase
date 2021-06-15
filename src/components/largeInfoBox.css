@@ -1,0 +1,48 @@
+#info-box-container {
+    width: 600px;
+    position: absolute;
+    top: 200px;
+    opacity: 0;
+
+    animation: 1s ease fadeIn;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+
+#info-box-container h3 {
+    font-size: 64px;
+    color: #333333;
+    margin: 0;
+}
+
+#info-box-container p {
+    font-size: 24px;
+}
+
+@media screen and (max-width: 1000px) {
+    #info-box-container {
+        width: 500px;
+    }
+
+    #info-box-container h3 {
+        font-size: 45px;
+    }
+
+    #info-box-container p {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    #info-box-container {
+        width: 400px;
+    }
+
+    #info-box-container h3 {
+        font-size: 36px;
+    }
+
+    #info-box-container p {
+        font-size: 18px;
+    }
+}

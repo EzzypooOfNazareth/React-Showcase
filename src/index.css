@@ -1,0 +1,66 @@
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Michroma', sans-serif;
+}
+
+p, span, button, label, input, a {
+  font-family: 'Darker Grotesque', sans-serif;
+}
+
+.link-as-button {
+  padding: 8px 25px;
+  background-color: #00325a;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  text-decoration: none;
+  margin: 0;
+  transition: all 0.2s ease;
+}
+
+.link-as-button:hover {
+  background-color: #0067a6;
+}
+
+.main-content {
+  width: 1280px;
+  margin: 25px auto;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1300px) {
+  .main-content {
+    width: 100%;
+    padding: 0 25px;
+    box-sizing: border-box;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .main-content {
+    padding: 0 15px;
+    box-sizing: border-box;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+      transform: translate(0, 100px);
+      opacity: 0;
+  }
+  100% {
+      transform: translate(0, 0);
+      opacity: 1;
+  }
+}
